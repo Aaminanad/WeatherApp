@@ -6,18 +6,25 @@
     <link rel="stylesheet" href="style.css">
     <title>WeatherApp</title>
     <link rel="icon" type="image/x-icon" href="./iconsun.png">
-    <link href="https://fonts.cdnfonts.com/css/amoera" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/noto-serif-toto" rel="stylesheet">
+                
 </head>
 <body>
     <div class="navbar">
-         <div class="image-container"><img src="iconcloud.png" ></div>
+         <div class="image-container"><img src="iconcloud&sun.png" ></div>
         <h1>Weather App</h1>
         <h3>Know the weather at your place!</h3>
     </div>
     <br>
-    <div class="main-content">
-        <h1>91</h1>
-
+    <br>
+      <div class="box">
+    <input type="text" id="cityInput" placeholder="Enter city...">
+    <button id="searchBtn">Search</button>
+    <div class="box"><div id="weatherDisplay"></div>
     </div>
+   
+
+    <script src="script.js"></script>
+
 </body>
 </html>
